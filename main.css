@@ -1,0 +1,26 @@
+html,body {
+  margin: 0;
+  height: 100%;
+}
+.Left {
+  width: 25%;
+  height: 100%;
+  border-right: 10px solid black;
+  box-sizing: border-box;
+  float: left;
+}
+.TopRight {
+  float: right;
+  width: 75%;
+  height: 50%;
+  border-bottom: 5px solid black;
+  box-sizing: border-box;
+}
+.BotRight {
+  float: right;
+  background-color: red;
+  border-top: 5px solid black;
+  box-sizing: border-box;
+  width: 75%;
+  height: 50%;
+}
